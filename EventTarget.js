@@ -1,5 +1,5 @@
 /**
-* @license Copyright (c) 2010 Nicholas C. Zakas. All rights reserved.
+* @license EventTarget.js Copyright (c) 2010 Nicholas C. Zakas. All rights reserved.
 * MIT License
 */
 (function(window, undefined){
