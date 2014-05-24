@@ -1,5 +1,5 @@
 /**
-* @license EventTarget.js Copyright (c) 2010 Nicholas C. Zakas. All rights reserved.
+* Copyright (c) 2010 Nicholas C. Zakas. All rights reserved.
 * MIT License
 */
 (function(window, undefined){
@@ -20,7 +20,10 @@
         },
 
         'fire': function(event, args){
-            event = typeof event === 'string' ? {'type':event} : {'type':event['type']};
+            event = typeof event === 'string' ?
+                {'type':event} :
+                {'type':event['type']}
+            ;
             args = args || {};
             var
                 type = event['type']
